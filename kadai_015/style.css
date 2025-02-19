@@ -4,12 +4,19 @@ html{
 
 
 body {
-  font-family: "Arial","Meiryo","sans-serif";
+  font-family: "Arial","Meiryo",sans-serif;
   text-align: center;
 }
 
 h1{
-  font-family: "Noto Sans JP", serif;
+  .google-fonts{
+      font-family: "Josefin Sans", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+    
+  
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
