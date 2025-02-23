@@ -69,7 +69,7 @@ a:hover{
   h2{font-size: 30px;}
   p{font-size: 25px;}
   #parent{
-   display: block; 
+   flex-direction:column;
    flex-basis: 100%;
   }
 }
