@@ -68,7 +68,15 @@ PC用のスタイル
   }
 }
 
-@media screen and (min-width: 375px){
+
+
+
+@media screen and (max-width:767px){
+
+  body{
+    min-width: 375px;
+    margin: 0 0 0 0 ;
+  }
 
   #nav-pc{
     display: none;
@@ -77,6 +85,8 @@ PC用のスタイル
   #menu-sp{
     float: right;
     padding: 0;
+    border: transparent;
+    border: none;
   }
 
   #nav-sp{
@@ -102,6 +112,8 @@ PC用のスタイル
     position: absolute;
     top: 20px;
     right: 20px;
+    background-color: transparent;
+    border: none;
   }
 
   #logo-sp{
@@ -142,6 +154,8 @@ PC用のスタイル
   }
 
 }
+
+
 
 
 
