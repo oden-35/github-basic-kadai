@@ -15,35 +15,44 @@ body{
 /*ヘッダー*/
 header{
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
   /* ヘッダーの高さはmarginやpaddingで調整 */
   
 }
 
-h1{
+h1 {
   font-size: 34px;
   display: inline-block;
   border: 1px solid black;
-  padding:0 10px ;
-  text-decoration: none;
-  margin: 0 5%;
-  color: black;
+  
+  
 }
+
+h1 a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding:0 10px;
+}
+
+
 
 
 nav ul{
   display:flex;
   align-items: center;
   font-size: 34px;
-  padding-left: 0;
   list-style: none;
+  margin: 0;
 
 }
 
 nav li{
   text-decoration: none;
-  margin-left: 20px;
+  margin: 0 20px;
 }
 
 li a{
@@ -131,9 +140,16 @@ footer{
 
 @media screen and (max-width: 767px){
 
+
+
 header{
   display: flex;
   justify-content: center;
+  margin: 0 auto;
+}
+
+header h1, header ul{
+  font-size: 24px;
 }
 
 #about-flex{
@@ -147,6 +163,7 @@ header{
 
 }
 
+
 h3{
   text-align: center;
   margin: 20px auto;
@@ -158,13 +175,21 @@ h3{
   margin: 0 10px;
 }
 
+p{
+  margin-top: 0px;
+  text-align: center;
+}
+
 .works-photo{
-  margin: 0 auto;
+  margin: 0px auto;
   width: 100%;
+  padding-bottom: 40px;
 
 }
 
-
+h2{
+  font-size: 24px;
+}
 
 
 }
